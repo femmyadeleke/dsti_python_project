@@ -14,25 +14,30 @@ with home_page_tab:
     st.header("Building a Profitable Financial Strategy Through Focasting of Real-Time Stock Market Report Analysis")
     st.subheader("By Oluwafemi Adeleke")
     st.markdown("""
-    This project is expected to help me do... This project is expected to help me do 
-    This project is expected to help me do This project is expected to help me do
-    This project is expected to help me do This project is expected to help me do 
+    Accurate forecasting of the stock market can be a valuable tool for investors looking to make informed decisions 
+    and develop a profitable financial strategy. In this project, we present a streamlit app that allows users to 
+    compare and predict the performance of various stocks in real-time. 
     
-    This project is expected to help me do This project is expected to help me do .
-    This project is expected to help me do This project is expected to help me do .
-    This project is expected to help me do... This project is expected to help me do 
-    This project is expected to help me do This project is expected to help me do
-    This project is expected to help me do This project is expected to help me do 
+    The app utilizes the Yahoo Finance Python API to retrieve real-time ticker data and Facebook Prophet for forecasting. 
     
-    This project is expected to help me do This project is expected to help me do .
-    This project is expected to help me do This project is expected to help me do .
+    The app includes two main tabs: one for comparing the performance of multiple stocks, 
+    and another for predicting the future price of a single stock. 
+    
+    By utilizing advanced forecasting techniques and real-time stock market data, this app aims to provide users 
+    with a powerful tool for understanding and navigating the financial market. Whether you are a seasoned investor 
+    or just starting out, this app can help you make informed decisions and build a successful financial strategy.
+    
+    
     
     """)
     
     
+    
+    
+    st.markdown("Refeence")
     st.markdown("[Yahoo Finance Python API](https://pypi.org/project/yfinance/)")
     st.markdown("[Facebook Prophet](https://facebook.github.io/prophet/docs/quick_start.html)")
-    st.markdown("[Streamlit ](https://docs.streamlit.io/)")
+    st.markdown("[Streamlit ](https://docs.streamlit.io/library/api-reference)")
 
 
 
