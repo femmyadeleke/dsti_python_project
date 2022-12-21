@@ -11,8 +11,8 @@ home_page_tab, compare_stocks_tab, forcast_stocks_tab= st.tabs(["Home Page","Com
 
 
 with home_page_tab:
-    st.header("Building a Profitable Financial Strategy Through Focasting of Real-Time Stock Market Report Analysis")
-    st.subheader("By Oluwafemi Adeleke")
+    st.subheader("Building a Profitable Financial Strategy Through Focasting of Real-Time Stock Market Report Analysis")
+    st.markdown("By Oluwafemi Adeleke, Nicolas Gregoriou, Julien Guyot")
     st.markdown("""
     Accurate forecasting of the stock market can be a valuable tool for investors looking to make informed decisions 
     and develop a profitable financial strategy. In this project, we present a streamlit app that allows users to 
@@ -34,7 +34,7 @@ with home_page_tab:
     
     
     
-    st.markdown("Refeence")
+    st.markdown("Reference")
     st.markdown("[Yahoo Finance Python API](https://pypi.org/project/yfinance/)")
     st.markdown("[Facebook Prophet](https://facebook.github.io/prophet/docs/quick_start.html)")
     st.markdown("[Streamlit ](https://docs.streamlit.io/library/api-reference)")
