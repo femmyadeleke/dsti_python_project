@@ -1,5 +1,7 @@
-pandas
-yfinance
-plotly
-streamlit
-prophet
+pandas==1.5.2
+pandasql==0.7.3
+pandoc==2.1
+yfinance==0.1.87
+plotly==5.11.0
+streamlit==1.12.0
+prophet==1.1.1
