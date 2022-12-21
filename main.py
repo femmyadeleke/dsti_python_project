@@ -29,14 +29,10 @@ with home_page_tab:
     
     """)
     
-    st.markdown("#### Yahoo Finance Python API")
     
-    st.markdown("#### Facebook Prophet")
-    
-    st.markdown("#### Streamlit")
-    st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
-    st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
-    st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
+    st.markdown("[Yahoo Finance Python API](https://pypi.org/project/yfinance/")
+    st.markdown("[Facebook Prophet](https://facebook.github.io/prophet/docs/quick_start.html)")
+    st.markdown("[Streamlit ](https://docs.streamlit.io/)")
 
 
 
