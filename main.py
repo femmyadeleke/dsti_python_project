@@ -11,8 +11,8 @@ home_page_tab, compare_stocks_tab, forcast_stocks_tab= st.tabs(["Home Page","Com
 
 
 with home_page_tab:
-    st.markdown("# Building a Profitable Financial Strategy Through Focasting of Real-Time Stock Market Report Analysis")
-    st.markdown("## By Oluwafemi Adeleke")
+    st.markdown("## Building a Profitable Financial Strategy Through Focasting of Real-Time Stock Market Report Analysis")
+    st.markdown("### By Oluwafemi Adeleke")
     st.markdown("""
     This project is expected to help me do... This project is expected to help me do 
     This project is expected to help me do This project is expected to help me do
@@ -20,8 +20,13 @@ with home_page_tab:
     
     This project is expected to help me do This project is expected to help me do .
     This project is expected to help me do This project is expected to help me do .
-    This project is expected to help me do This project is expected to help me do .
-    This project is expected to help me do This project is expected to help me do .
+    Library used:
+    
+    ###Facebook Prophet
+    Facebook Prophet is a open-source Python library that allows users to easily create forecasts 
+    for time series data. It is based on a decomposable model that includes trend, seasonality, 
+    and holidays components, and can handle missing data and additional regressors. It is useful for 
+    forecasting daily or weekly data with at least one year of history.
     
     """)
     st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
