@@ -12,7 +12,7 @@ home_page_tab, compare_stocks_tab, forcast_stocks_tab= st.tabs(["Home Page","Com
 
 with home_page_tab:
     st.markdown("## Building a Profitable Financial Strategy Through Focasting of Real-Time Stock Market Report Analysis")
-    st.markdown("### By Oluwafemi Adeleke")
+    st.subheader("### By Oluwafemi Adeleke")
     st.markdown("""
     This project is expected to help me do... This project is expected to help me do 
     This project is expected to help me do This project is expected to help me do
@@ -30,7 +30,7 @@ with home_page_tab:
     """)
     
     
-    st.markdown("[Yahoo Finance Python API](https://pypi.org/project/yfinance/")
+    st.markdown("[Yahoo Finance Python API](https://pypi.org/project/yfinance/)")
     st.markdown("[Facebook Prophet](https://facebook.github.io/prophet/docs/quick_start.html)")
     st.markdown("[Streamlit ](https://docs.streamlit.io/)")
 
