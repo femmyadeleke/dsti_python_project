@@ -11,3 +11,10 @@ and another for predicting the future price of a single stock.
 By utilizing advanced forecasting techniques and real-time stock market data, this app aims to provide users 
 with a powerful tool for understanding and navigating the financial market. Whether you are a seasoned investor 
 or just starting out, this app can help you make informed decisions and build a successful financial strategy.
+
+
+Usage:
+1. Create a python virtual env
+2. clone this repo
+3. do `pip install -r requirements.txt`
+4. then run streamlit run main.py
