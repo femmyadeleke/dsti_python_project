@@ -20,15 +20,20 @@ with home_page_tab:
     
     This project is expected to help me do This project is expected to help me do .
     This project is expected to help me do This project is expected to help me do .
-    Library used:
+    This project is expected to help me do... This project is expected to help me do 
+    This project is expected to help me do This project is expected to help me do
+    This project is expected to help me do This project is expected to help me do 
     
-    ###Facebook Prophet
-    Facebook Prophet is a open-source Python library that allows users to easily create forecasts 
-    for time series data. It is based on a decomposable model that includes trend, seasonality, 
-    and holidays components, and can handle missing data and additional regressors. It is useful for 
-    forecasting daily or weekly data with at least one year of history.
+    This project is expected to help me do This project is expected to help me do .
+    This project is expected to help me do This project is expected to help me do .
     
     """)
+    
+    st.markdown("#### Yahoo Finance Python API")
+    
+    st.markdown("#### Facebook Prophet")
+    
+    st.markdown("#### Streamlit")
     st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
     st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
     st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
