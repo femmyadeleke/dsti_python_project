@@ -7,10 +7,10 @@ from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 
 
-tab1, tab2, tab3= st.tabs(["Home Page","Compare Stocks", "Forcast Stocks"])
+home_page_tab, compare_stocks_tab, forcast_stocks_tab= st.tabs(["Home Page","Compare Stocks", "Forcast Stocks"])
 
 
-with tab1:
+with home_page_tab:
     st.markdown("# Building a Profitable Financial Strategy Through Focasting of Real-Time Stock Market Report Analysis")
     st.markdown("## By Oluwafemi Adeleke")
     st.markdown("""
@@ -24,14 +24,14 @@ with tab1:
     This project is expected to help me do This project is expected to help me do .
     
     """)
-    st.markdown("[Reference...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
-    st.markdown("[Reference...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
-    st.markdown("[Reference...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
+    st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
+    st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
+    st.markdown("[Reference: ...](https://towardsdatascience.com/a-multi-page-interactive-dashboard-with-streamlit-and-plotly-c3182443871a)")
 
 
 
 
-with tab2:
+with compare_stocks_tab:
     st.title('Stock Analyses')
 
     tickers = ('TSLA', 'AAPL','MSFT',  'AMZN', 'GOOG','AAPL', 'ORCL', 'PREM.L', 'UKOG.L', 'KOD.L', 'TOM.L', 'VELA.L')
@@ -53,13 +53,13 @@ with tab2:
         df = releativeret(yf.download(dropdown,start_date, end_date)['Adj Close'])
         st.line_chart(df)
 
-with tab3:
+with forcast_stocks_tab:
     START = st.date_input('Date', value=pd.to_datetime('2022-11-01'))
     TODAY = date.today().strftime("%Y-%m-%d")
 
     st.title('Stock Forecast App')
 
-    stocks = ('GOOG', 'AAPL', 'MSFT', 'GME')
+    stocks = ('TSLA', 'AAPL','MSFT',  'AMZN', 'GOOG','AAPL', 'ORCL', 'PREM.L', 'UKOG.L', 'KOD.L', 'TOM.L', 'VELA.L')
     selected_stock = st.selectbox('Select dataset for prediction', stocks)
 
     n_years = st.slider('Years of prediction:', 1, 4)
