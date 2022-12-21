@@ -17,4 +17,4 @@ Usage:
 1. Create a python virtual env
 2. clone this repo
 3. do `pip install -r requirements.txt`
-4. then run streamlit run main.py
+4. then run `streamlit run main.py`
